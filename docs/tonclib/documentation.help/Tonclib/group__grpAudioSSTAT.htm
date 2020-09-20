@@ -1,0 +1,683 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+libtonc: Sound Status Flags - Tonclib Documentation</title>
+<script src="../cdn-cgi/apps/head/MjlXTyhGypAwQFkqZX2sOa_9i4o.js"></script><link rel="alternate" href="documentation.pdf" /><link href="page_styles.css.html" rel="stylesheet" type="text/css" />
+<link href="../calibreHtmlOutBasicCss.css" type="text/css" rel="stylesheet" />
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+<link rel="stylesheet" href="../assets/css/main.css" />
+<link rel="shortcut icon" href="../favicon.ico">
+<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<style>
+.collapse > a{
+  background: #cdf;
+  cursor: pointer;
+  display: block;
+}
+.collapse:focus{
+  outline: none;
+}
+.collapse > div{
+  display: none;
+}
+.collapse:focus div{
+  display: block; 
+}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+
+<div id="main">
+<div class="inner">
+
+<header id="header">
+<a href="https://documentation.help/" class="logo"><strong>documentation</strong>.HELP!</a> Tonclib Documentation </header>
+
+<section>
+<h1>libtonc: Sound Status Flags</h1>
+<h4>Tonclib</h4>
+<div class="content">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="0c7609cf781cc3a372b519cf-text/javascript"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0545639743190253" data-ad-slot="2889760833" data-ad-format="auto"></ins>
+<script type="0c7609cf781cc3a372b519cf-text/javascript">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<div><div class="calibreMain">
+<div class="calibreEbookContent">
+<div class="calibreEbNavTop">
+<a href="group__grpAudioSDS.htm" class="calibreAPrev">previous page</a>
+<a href="group__grpAudioDMA.htm" class="calibreANext"> next page</a>
+</div>
+
+<div class="tabs">
+<ul class="calibre1">
+<li class="current"><a href="main.htm" class="calibre4 pcalibre3 pcalibre1 pcalibre2 pcalibre"><span class="calibre5 pcalibre4">Main Page</span></a></li>
+<li class="current"><a href="modules.htm" class="calibre4 pcalibre3 pcalibre1 pcalibre2 pcalibre"><span class="calibre5 pcalibre4">Modules</span></a></li>
+<li class="current"><a href="classes.htm" class="calibre4 pcalibre3 pcalibre1 pcalibre2 pcalibre"><span class="calibre5 pcalibre4">Data Structures</span></a></li>
+<li class="current"><a href="files.htm" class="calibre4 pcalibre3 pcalibre1 pcalibre2 pcalibre"><span class="calibre5 pcalibre4">Files</span></a></li>
+<li class="current"><a href="pages.htm" class="calibre4 pcalibre3 pcalibre1 pcalibre2 pcalibre"><span class="calibre5 pcalibre4">Related Pages</span></a></li>
+</ul>
+</div>
+<h1 class="calibre6">Sound Status Flags<br class="calibre24" />
+<small class="calibre25">
+[<a class="el1 pcalibre5 pcalibre6" href="group__grpMemBits.htm">Memory map bit(fields)</a>]</small>
+</h1>Bits for REG_SNDSTAT (and REG_SOUNDCNT_X).
+<a href="group__grpAudioSSTAT.htm#_details" class="pcalibre5 pcalibre6 calibre8">More...</a><table border="0" cellpadding="0" cellspacing="0" class="calibre17">
+<tr class="calibre18"><td class="calibre19" /></tr>
+<tr class="calibre18"><td colspan="2" class="calibre19"><br class="calibre21" /><h2 class="calibre20">Defines</h2></td></tr>
+<tr class="calibre18"><td class="memitemleft" nowrap="nowrap"><a class="pcalibre5 pcalibre6 calibre8" name="g0ae14b18e2753fa2b4d6d1497f16fe14"></a>
+#define </td><td class="memitemright"><a class="pcalibre5 el pcalibre6" href="group__grpAudioSSTAT.htm#g0ae14b18e2753fa2b4d6d1497f16fe14">SSTAT_SQR1</a>   0x0001</td></tr>
+<tr class="calibre18"><td class="mdescleft"> </td><td class="mdescleft">(R) Channel 1 status <br class="calibre21" /></td></tr>
+<tr class="calibre18"><td class="memitemleft" nowrap="nowrap"><a class="pcalibre5 pcalibre6 calibre8" name="g6e6912555b364e1096f0670df2366888"></a>
+#define </td><td class="memitemright"><a class="pcalibre5 el pcalibre6" href="group__grpAudioSSTAT.htm#g6e6912555b364e1096f0670df2366888">SSTAT_SQR2</a>   0x0002</td></tr>
+<tr class="calibre18"><td class="mdescleft"> </td><td class="mdescleft">(R) Channel 2 status <br class="calibre21" /></td></tr>
+<tr class="calibre18"><td class="memitemleft" nowrap="nowrap"><a class="pcalibre5 pcalibre6 calibre8" name="gd9585eb63d49ce56827ab4edaabb0255"></a>
+#define </td><td class="memitemright"><a class="pcalibre5 el pcalibre6" href="group__grpAudioSSTAT.htm#gd9585eb63d49ce56827ab4edaabb0255">SSTAT_WAVE</a>   0x0004</td></tr>
+<tr class="calibre18"><td class="mdescleft"> </td><td class="mdescleft">(R) Channel 3 status <br class="calibre21" /></td></tr>
+<tr class="calibre18"><td class="memitemleft" nowrap="nowrap"><a class="pcalibre5 pcalibre6 calibre8" name="g9e2a6bad7b61f8f721f7019fe050298c"></a>
+#define </td><td class="memitemright"><a class="pcalibre5 el pcalibre6" href="group__grpAudioSSTAT.htm#g9e2a6bad7b61f8f721f7019fe050298c">SSTAT_NOISE</a>   0x0008</td></tr>
+<tr class="calibre18"><td class="mdescleft"> </td><td class="mdescleft">(R) Channel 4 status <br class="calibre21" /></td></tr>
+<tr class="calibre18"><td class="memitemleft" nowrap="nowrap"><a class="pcalibre5 pcalibre6 calibre8" name="g93cea3e980b3eada6682f8548c1fdfd9"></a>
+#define </td><td class="memitemright"><a class="pcalibre5 el pcalibre6" href="group__grpAudioSSTAT.htm#g93cea3e980b3eada6682f8548c1fdfd9">SSTAT_DISABLE</a>   0</td></tr>
+<tr class="calibre18"><td class="mdescleft"> </td><td class="mdescleft">Disable sound. <br class="calibre21" /></td></tr>
+<tr class="calibre18"><td class="memitemleft" nowrap="nowrap"><a class="pcalibre5 pcalibre6 calibre8" name="g2b265ba6718645f722e3a54ee1f3778e"></a>
+#define </td><td class="memitemright"><a class="pcalibre5 el pcalibre6" href="group__grpAudioSSTAT.htm#g2b265ba6718645f722e3a54ee1f3778e">SSTAT_ENABLE</a>   0x0080</td></tr>
+<tr class="calibre18"><td class="mdescleft"> </td><td class="mdescleft">Enable sound. NOTE: enable before using any other sound regs. <br class="calibre21" /></td></tr>
+</table>
+<hr class="calibre9" /><a name="_details" class="pcalibre5 pcalibre6 calibre8"></a><h2 class="calibre20">Detailed Description</h2>
+Bits for REG_SNDSTAT (and REG_SOUNDCNT_X).
+<p class="calibre7">
+<hr size="1" class="calibre9" /><address class="calibre10"><small class="calibre11">Generated on Mon Aug 25 17:03:57 2008 for libtonc by 
+<a href="http://www.doxygen.org/index.html" class="pcalibre5 pcalibre6 calibre8">
+<img src="doxygen.png" alt="doxygen" border="0" class="calibre12" /></a> 1.5.3 </small></address>
+</p>
+</div>
+<div class="calibreEbNav">
+<a href="group__grpAudioSDS.htm" class="calibreAPrev">previous page</a>
+<a href="index.html" class="calibreAHome"> start</a>
+<a href="group__grpAudioDMA.htm" class="calibreANext"> next page</a>
+</div>
+</div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="0c7609cf781cc3a372b519cf-text/javascript"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0545639743190253" data-ad-slot="2889760833" data-ad-format="auto"></ins>
+<script type="0c7609cf781cc3a372b519cf-text/javascript">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</table>
+</div>
+</section>
+
+</div>
+</div>
+
+
+<div id="sidebar">
+<div class="inner">
+
+
+<nav id="menu">
+<header class="major">
+<h2>Menu</h2>
+</header>
+<ul>
+<li><a href="https://documentation.help/">Homepage</a></li> 
+</ul>
+<div><div class="calibreTocIndex">
+<h2> Table of contents</h2>
+<div>
+<ul>
+<li>
+<a href="main.htm">Tonclib 1.4 (20080825)</a>
+</li>
+<li>
+<a href="modules.htm">Modules</a>
+<ul>
+<li>
+<a href="group__grpBios.htm">Bios Calls</a>
+<ul>
+<li>
+<a href="group__grpBiosDef.htm">BIOS informalities</a>
+</li>
+<li>
+<a href="group__grpBiosMain.htm">BIOS functions</a>
+</li>
+<li>
+<a href="group__grpBiosEx.htm">More BIOS functions</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="group__grpCore.htm">Core</a>
+<ul>
+<li>
+<a href="group__grpCoreBit.htm">Bit(field) macros</a>
+</li>
+<li>
+<a href="group__grpData.htm">Data routines</a>
+</li>
+<li>
+<a href="group__grpCoreMisc.htm">Miscellaneous routines</a>
+</li>
+<li>
+<a href="group__grpNocash.htm">no$gba debugging</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="group__grpDma.htm">DMA</a>
+</li>
+<li>
+<a href="group__grpInput.htm">Input</a>
+</li>
+<li>
+<a href="group__grpIrq.htm">Interrupt</a>
+</li>
+<li>
+<a href="group__grpMath.htm">Math</a>
+<ul>
+<li>
+<a href="group__grpMathBase.htm">Base math</a>
+</li>
+<li>
+<a href="group__grpMathFixed.htm">Fixed point math</a>
+</li>
+<li>
+<a href="group__grpMathLut.htm">Look-up tables</a>
+</li>
+<li>
+<a href="group__grpMathPoint.htm">Point functions</a>
+</li>
+<li>
+<a href="group__grpMathVector.htm">Vector functions</a>
+</li>
+<li>
+<a href="group__grpMathRect.htm">Rect functions</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="group__grpMemmap.htm">Memory Map</a>
+<ul>
+<li>
+<a href="group__grpMemBits.htm">Memory map bit(fields)</a>
+<ul>
+<li>
+<a href="group__grpVideoDCNT.htm">Display Control Flags</a>
+</li>
+<li>
+<a href="group__grpVideoDSTAT.htm">Display Status Flags</a>
+</li>
+<li>
+<a href="group__grpVideoBGCNT.htm">Background Control Flags</a>
+</li>
+<li>
+<a href="group__grpVideoGfx.htm">Graphic effects</a>
+</li>
+<li>
+<a href="group__grpVideoBLD.htm">Blend Flags</a>
+</li>
+<li>
+<a href="group__grpAudioSSW.htm">Tone Generator, Sweep Flags</a>
+</li>
+<li>
+<a href="group__grpAudioSSQR.htm">Tone Generator, Square Flags</a>
+</li>
+<li>
+<a href="group__grpAudioSFREQ.htm">Tone Generator, Frequency Flags</a>
+</li>
+<li>
+<a href="group__grpAudioSDMG.htm">Tone Generator, Control Flags</a>
+</li>
+<li>
+<a href="group__grpAudioSDS.htm">Direct Sound Flags</a>
+</li>
+<li>
+<a href="group__grpAudioSSTAT.htm">Sound Status Flags</a>
+</li>
+<li>
+<a href="group__grpAudioDMA.htm">DMA Control Flags</a>
+</li>
+<li>
+<a href="group__grpTimerTM.htm">Timer Control Flags</a>
+</li>
+<li>
+<a href="group__grpSioCnt.htm">Serial I/O Control</a>
+</li>
+<li>
+<a href="group__grpCommR.htm">Comm control.</a>
+</li>
+<li>
+<a href="group__grpInputKEY.htm">Key Flags</a>
+</li>
+<li>
+<a href="group__grpInputKCNT.htm">Key Control Flags</a>
+</li>
+<li>
+<a href="group__grpIrqIRQ.htm">Interrupt Flags</a>
+</li>
+<li>
+<a href="group__grpMiscWS.htm">Waitstate Control Flags</a>
+</li>
+<li>
+<a href="group__grpVideoSE.htm">Screen-entry Flags</a>
+</li>
+<li>
+<a href="group__grpVideoAttr0.htm">Object Attribute 0 Flags</a>
+</li>
+<li>
+<a href="group__grpVideoAttr1.htm">Object Attribute 1 Flags</a>
+</li>
+<li>
+<a href="group__grpVideoAttr2.htm">Object Attribute 2 Flags</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="group__grpMemArray.htm">Memory mapped arrays</a>
+</li>
+<li>
+<a href="group__grpReg.htm">IO Registers</a>
+</li>
+<li>
+<a href="group__grpRegAlt.htm">IO Alternates</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="group__grpAudio.htm">Sound</a>
+</li>
+<li>
+<a href="group__grpTTE.htm">Tonc Text Engine</a>
+<ul>
+<li>
+<a href="group__grpTTEOps.htm">Operations</a>
+</li>
+<li>
+<a href="group__grpTTEAttr.htm">Attributes</a>
+</li>
+<li>
+<a href="group__grpTTEConio.htm">Console IO</a>
+</li>
+<li>
+<a href="group__grpTTEMap.htm">Tilemap text</a>
+</li>
+<li>
+<a href="group__grpTTEChr4c.htm">Character text, column-major</a>
+</li>
+ <li>
+<a href="group__grpTTEChr4r.htm">Character text, row-major</a>
+</li>
+<li>
+<a href="group__grpTTEBmp.htm">Bitmap text</a>
+</li>
+<li>
+<a href="group__grpTTEObj.htm">Object text</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="group__grpText.htm">Old Text</a>
+<ul>
+<li>
+<a href="group__grpTextTile.htm">Tilemap text</a>
+</li>
+<li>
+<a href="group__grpTextBm.htm">Bitmap text</a>
+</li>
+<li>
+<a href="group__grpTextObj.htm">Object text</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="group__grpTimer.htm">Timer</a>
+</li>
+<li>
+<a href="group__grpVideo.htm">Video</a>
+<ul>
+<li>
+<a href="group__grpSurface.htm">Surface functions</a>
+<ul>
+<li>
+<a href="group__grpSbmp16.htm">16bpp bitmap surfaces</a>
+</li>
+<li>
+<a href="group__grpSbmp8.htm">8bpp bitmap surfaces</a>
+</li>
+<li>
+<a href="group__grpSchr4c.htm">4bpp tiled surfaces, column major</a>
+</li>
+<li>
+<a href="group__grpSchr4r.htm">4bpp tiled surfaces, row major</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="group__grpVideoPal.htm">Colors</a>
+</li>
+<li>
+<a href="group__grpVideoBg.htm">Tiled Backgrounds</a>
+</li>
+<li>
+<a href="group__grpVideoBmp.htm">Bitmaps</a>
+</li>
+<li>
+<a href="group__grpVideoObj.htm">Objects</a>
+</li>
+<li>
+<a href="group__grpVideoAffine.htm">Affine functions</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="group__grpTypes.htm">Types and attributes</a>
+<ul>
+<li>
+<a href="group__grpTypeAttr.htm">Type attributes</a>
+</li>
+<li>
+<a href="group__grpTypePrim.htm">Primary types</a>
+</li>
+<li>
+<a href="group__grpTypeSec.htm">Secondary types</a>
+</li>
+<li>
+<a href="group__grpTypeTert.htm">Tertiary types</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="annotated.htm">Data Structures</a>
+<ul>
+<li>
+<a href="structBG__POINT.htm">BG_POINT</a>
+</li>
+<li>
+<a href="structBgAffineDest.htm">BgAffineDest</a>
+</li>
+<li>
+<a href="structBgAffineSource.htm">BgAffineSource</a>
+</li>
+<li>
+<a href="structBLOCK.htm">BLOCK</a>
+</li>
+<li>
+<a href="structBUP.htm">BUP</a>
+</li>
+<li>
+<a href="structDMA__REC.htm">DMA_REC</a>
+</li>
+<li>
+<a href="structIRQ__REC.htm">IRQ_REC</a>
+</li>
+<li>
+<a href="structIRQ__SENDER.htm">IRQ_SENDER</a>
+</li>
+<li>
+<a href="structMultiBootParam.htm">MultiBootParam</a>
+</li>
+<li>
+<a href="structOBJ__AFFINE.htm">OBJ_AFFINE</a>
+</li>
+<li>
+<a href="structOBJ__ATTR.htm">OBJ_ATTR</a>
+</li>
+<li>
+<a href="structObjAffineDest.htm">ObjAffineDest</a>
+</li>
+<li>
+<a href="structObjAffineSource.htm">ObjAffineSource</a>
+</li>
+<li>
+<a href="structPOINT32.htm">POINT32</a>
+</li>
+<li>
+<a href="structRECT32.htm">RECT32</a>
+</li>
+<li>
+<a href="structREPEAT__REC.htm">REPEAT_REC</a>
+</li>
+<li>
+<a href="structTFont.htm">TFont</a>
+</li>
+<li>
+<a href="structTILE.htm">TILE</a>
+</li>
+<li>
+<a href="structTILE8.htm">TILE8</a>
+</li>
+<li>
+<a href="structTMR__REC.htm">TMR_REC</a>
+</li>
+<li>
+<a href="structTTC.htm">TTC</a>
+</li>
+<li>
+<a href="structVECTOR.htm">VECTOR</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="functions.htm">Data Fields</a>
+</li>
+<li>
+<a href="files.htm">File List</a>
+<ul>
+<li>
+<a href="ase__drawg_8c.htm">ase_drawg.c</a>
+</li>
+<li>
+<a href="bmp16__drawg_8c.htm">bmp16_drawg.c</a>
+</li>
+<li>
+<a href="bmp16__drawg__b1cs_8c.htm">bmp16_drawg_b1cs.c</a>
+</li>
+<li>
+<a href="bmp8__drawg_8c.htm">bmp8_drawg.c</a>
+</li>
+<li>
+<a href="bmp8__drawg__b1cs_8c.htm">bmp8_drawg_b1cs.c</a>
+</li>
+<li>
+<a href="chr4c__drawg__b1cts_8c.htm">chr4c_drawg_b1cts.c</a>
+</li>
+<li>
+<a href="chr4c__drawg__b4cts_8c.htm">chr4c_drawg_b4cts.c</a>
+</li>
+<li>
+<a href="chr4r__drawg__b1cts_8c.htm">chr4r_drawg_b1cts.c</a>
+</li>
+<li>
+<a href="obj__drawg_8c.htm">obj_drawg.c</a>
+</li>
+<li>
+<a href="se__drawg_8c.htm">se_drawg.c</a>
+</li>
+<li>
+<a href="tonc_8h.htm">tonc.h</a>
+</li>
+<li>
+<a href="tonc__bg_8c.htm">tonc_bg.c</a>
+</li>
+<li>
+<a href="tonc__bg__affine_8c.htm">tonc_bg_affine.c</a>
+</li>
+<li>
+<a href="tonc__bios_8h.htm">tonc_bios.h</a>
+</li>
+<li>
+<a href="tonc__bmp16_8c.htm">tonc_bmp16.c</a>
+</li>
+<li>
+<a href="tonc__bmp8_8c.htm">tonc_bmp8.c</a>
+</li>
+<li>
+<a href="tonc__color_8c.htm">tonc_color.c</a>
+</li>
+<li>
+<a href="tonc__core_8c.htm">tonc_core.c</a>
+</li>
+<li>
+<a href="tonc__core_8h.htm">tonc_core.h</a>
+</li>
+<li>
+<a href="tonc__input_8c.htm">tonc_input.c</a>
+</li>
+<li>
+<a href="tonc__input_8h.htm">tonc_input.h</a>
+</li>
+<li>
+<a href="tonc__irq_8c.htm">tonc_irq.c</a>
+</li>
+<li>
+<a href="tonc__irq_8h.htm">tonc_irq.h</a>
+</li>
+<li>
+<a href="tonc__legacy_8h.htm">tonc_legacy.h</a>
+</li>
+<li>
+<a href="tonc__libgba_8h.htm">tonc_libgba.h</a>
+</li>
+<li>
+<a href="tonc__math_8c.htm">tonc_math.c</a>
+</li>
+<li>
+<a href="tonc__math_8h.htm">tonc_math.h</a>
+</li>
+<li>
+<a href="tonc__memdef_8h.htm">tonc_memdef.h</a>
+</li>
+<li>
+<a href="tonc__memmap_8h.htm">tonc_memmap.h</a>
+</li>
+<li>
+<a href="tonc__nocash_8h.htm">tonc_nocash.h</a>
+</li>
+<li>
+<a href="tonc__oam_8c.htm">tonc_oam.c</a>
+</li>
+<li>
+<a href="tonc__oam_8h.htm">tonc_oam.h</a>
+</li>
+<li>
+<a href="tonc__obj__affine_8c.htm">tonc_obj_affine.c</a>
+</li>
+<li>
+<a href="tonc__sbmp16_8c.htm">tonc_sbmp16.c</a>
+</li>
+<li>
+<a href="tonc__sbmp8_8c.htm">tonc_sbmp8.c</a>
+</li>
+<li>
+<a href="tonc__schr4c_8c.htm">tonc_schr4c.c</a>
+</li>
+<li>
+<a href="tonc__schr4r_8c.htm">tonc_schr4r.c</a>
+</li>
+<li>
+<a href="tonc__surface_8c.htm">tonc_surface.c</a>
+</li>
+<li>
+<a href="tonc__surface_8h.htm">tonc_surface.h</a>
+</li>
+<li>
+<a href="tonc__text_8h.htm">tonc_text.h</a>
+</li>
+<li>
+<a href="tonc__tte_8h.htm">tonc_tte.h</a>
+</li>
+<li>
+<a href="tonc__types_8h.htm">tonc_types.h</a>
+</li>
+<li>
+<a href="tonc__video_8c.htm">tonc_video.c</a>
+</li>
+<li>
+<a href="tonc__video_8h.htm">tonc_video.h</a>
+</li>
+<li>
+<a href="tte__init__ase_8c.htm">tte_init_ase.c</a>
+</li>
+<li>
+<a href="tte__init__bmp_8c.htm">tte_init_bmp.c</a>
+</li>
+<li>
+<a href="tte__init__chr4c_8c.htm">tte_init_chr4c.c</a>
+</li>
+<li>
+<a href="tte__init__chr4r_8c.htm">tte_init_chr4r.c</a>
+</li>
+<li>
+<a href="tte__init__obj_8c.htm">tte_init_obj.c</a>
+</li>
+<li>
+<a href="tte__init__se_8c.htm">tte_init_se.c</a>
+</li>
+<li>
+<a href="tte__iohook_8c.htm">tte_iohook.c</a>
+</li>
+<li>
+<a href="tte__main_8c.htm">tte_main.c</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="globals.htm">Globals</a>
+</li>
+<li>
+<a href="pages.htm">Related Pages</a>
+<ul>
+<li>
+<a href="todo.htm">Todo List</a>
+</li>
+<li>
+<a href="deprecated.htm">Deprecated List</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+ </nav>
+
+
+<section>
+<header class="major">
+<h2>Get in touch</h2>
+</header>
+<p>Submit feedback about this site to:</p>
+<ul class="contact">
+<li class="fa-envelope-o"><a href="https://documentation.help/cdn-cgi/l/email-protection#2e464b425e4a414d5d6e5c4b46434f4040004d41"><span class="__cf_email__" data-cfemail="553d303925313a36261527303d38343b3b7b363a">[email&#160;protected]</span></a></li>
+</ul>
+</section>
+
+<footer id="footer">
+<p class="copyright">&copy; <a href="https://documentation.help">documentation.help</a>. Design: <a href="https://rehmann.co">rehmann.co</a>.</p>
+<ul class="icons">
+
+</ul>
+</footer>
+</div>
+</div>
+</div>
+
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/js/jquery.min.js" type="0c7609cf781cc3a372b519cf-text/javascript"></script>
+<script src="../assets/js/skel.min.js" type="0c7609cf781cc3a372b519cf-text/javascript"></script>
+<script src="../assets/js/util.js" type="0c7609cf781cc3a372b519cf-text/javascript"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="../assets/js/main.js" type="0c7609cf781cc3a372b519cf-text/javascript"></script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="0c7609cf781cc3a372b519cf-|49" defer=""></script></body>
+</html>
